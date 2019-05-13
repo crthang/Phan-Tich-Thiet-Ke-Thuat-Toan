@@ -16,8 +16,6 @@ public class DayConTangDan {
         System.out.println();
         
         //5, 6*, 3, 5, 7, 8, 9, 1, 2*
-        //max luu do dai dai nhat
-        //len luu chieu dai dai nhat
         int max = 1, len = 1, maxIndex = 0;
         for (int i = 1; i < n; i++) {
             if (arr[i] > arr[i - 1]) {
